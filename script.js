@@ -1,19 +1,18 @@
 function highlight() {
     //Write your code here
-	const strongElements = document.querySelectorAll('strong');
-	strongElements.forEach(element => {
-		element.style.color = 'rgb(0,128,0)';
-	});
-
+	 const strongElements = document.querySelectorAll('strong');
+    strongElements.forEach(element => {
+        element.style.color = 'rgb(0,128,0)'; // green color
+    });
 }
 
 
 function return_normal() {
     //Write your code here
-	const strongElements = document.querSelectorAll('strong');
-	strongElements.forEach(element => {
-		element.style.color ='rgb(0, 0, 0,)';
-	});
+	const strongElements = document.querySelectorAll('strong');
+    strongElements.forEach(element => {
+        element.style.color = 'rgb(0, 0, 0)'; // black color
+    });
 
     
 }
